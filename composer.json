@@ -1,0 +1,27 @@
+{
+    "name": "geerfest/yii2-readmore",
+    "description": "Readmore.js widget for yii2",
+    "keywords": ["yii", "module"],
+    "homepage": "https://github.com/geerfest/yii2-readmore",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "email": "geerfestan@gmail.com",
+        "source": "https://github.com/geerfest/yii2-readmore"
+    },
+    "authors": [
+        {
+            "name": "Andrey Sobakin",
+            "email": "geerfestan@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "bower-asset/readmore.js": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "geerfest\\yii2\\readmore\\": ""
+        }
+    }
+}
